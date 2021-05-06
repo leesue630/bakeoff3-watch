@@ -558,7 +558,7 @@ int getHoveredLetter(int prs, int rls, float x, float y) {
         else if (rls == 7) ip = 12;
     } else if (prs == 4) {
         if (rls == 4) ip = - 1;
-        else if (rls == 3 && currentTyped.length()>0) {
+        else if (rls == 3) {
             ip = - 2;
         }
     } else if (prs == 5) {
